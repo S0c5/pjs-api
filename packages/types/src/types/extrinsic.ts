@@ -100,7 +100,7 @@ export interface SignerPayloadRawBase {
   /**
    * @description The type of the contained data
    */
-  type?: 'bytes' | 'payload';
+  type?: 'bytes' | 'payload' | 'raw';
 }
 
 export interface SignerPayloadRaw extends SignerPayloadRawBase {
@@ -112,7 +112,7 @@ export interface SignerPayloadRaw extends SignerPayloadRawBase {
   /**
    * @description The type of the contained data
    */
-  type: 'bytes' | 'payload';
+  type: 'bytes' | 'payload' | 'raw';
 }
 
 export interface ISignerPayload {
